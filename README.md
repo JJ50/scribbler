@@ -2,4 +2,5 @@ scribbler
 =========
 
 Scribbler project
-yo i'm pulling
+Dividing up the task:
+
