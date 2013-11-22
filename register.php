@@ -1,6 +1,6 @@
 <?php
 
-    // configuration
+    // configuration apple
     require("../includes/config.php"); 
 
     // if form was submitted
