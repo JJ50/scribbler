@@ -20,7 +20,7 @@
             apologize("Those passwords did not match.");
         }
 
-        // try to register user
+        // try to register user njhnkj
         $results = query("INSERT INTO users (username, hash, cash) VALUES(?, ?, 10000.0000)",
             $_POST["username"], crypt($_POST["password"])
         );
