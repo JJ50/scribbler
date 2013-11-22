@@ -1,6 +1,6 @@
 <?php
 
-    // configuration apple
+    // configuration banana
     require("../includes/config.php"); 
 
     // if form was submitted
