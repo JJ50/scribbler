@@ -2,11 +2,11 @@ scribbler
 =========
 
 Good: 
-1. Daily word inputting possible (similar to the CS50 finance/ thread-like wrdly)
+1. Daily word inputting possible (similar to the CS50 finance/ thread-like wrdly)-Irma by fri
 2. Table of content: buttons for each month: if mouse clicks button, then will switch to a page that lists the dates in the month
 3. User could choose color outlining their daily journal entry	
-4. Program can calculate word frequency (inspirations from Pset 6)
-5. User can choose their mood of the day
+4. Program can calculate word frequency (inspirations from Pset 6)-irma
+5. User can choose their mood of the day-joy
 
 Better:
 6. User could add 1 picture per entry
