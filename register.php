@@ -1,6 +1,6 @@
 <?php
 
-    // configuration banana
+    // configuration
     require("../includes/config.php"); 
 
     // if form was submitted
@@ -20,7 +20,7 @@
             apologize("Those passwords did not match.");
         }
 
-        // try to register user njhnkj
+        // try to register user
         $results = query("INSERT INTO users (username, hash, cash) VALUES(?, ?, 10000.0000)",
             $_POST["username"], crypt($_POST["password"])
         );
