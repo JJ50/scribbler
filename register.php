@@ -9,19 +9,27 @@
         // validate inputs
         if (empty($_POST["username"]))
         {
-            apologize("You must provide a username.");
+            apologize("Please provide a username.");
+        }
+        else if (strlen($_POST["username"]) > 25)
+        {
+            apologize("Username cannot exceed 25 characters.");   
+        }    
         }
         else if (empty($_POST["password"]))
         {
-            apologize("You must provide a password.");
+            apologize("Please provide a password.");
         }
         else if (empty($_POST["confirmation"]) || $_POST["password"] != $_POST["confirmation"])
         {
-            apologize("Those passwords did not match.");
+            apologize("Passwords do not match.");
         }
-
+        else if (strlen($_POST["password"]) > 25 || strlen($_POST["password"]) < 5)
+        {
+            apologize("Password length must be between 5 and 25 characters.");   
+        } 
         // try to register user
-        $results = query("INSERT INTO users (username, hash, cash) VALUES(?, ?, 10000.0000)",
+        $results = query("INSERT INTO users (username, hash) VALUES(?, ?)",
             $_POST["username"], crypt($_POST["password"])
         );
         if ($results === false)
