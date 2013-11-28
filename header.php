@@ -9,9 +9,9 @@
         <link href="/css/styles.css" rel="stylesheet"/>
 
         <?php if (isset($title)): ?>
-            <title>C$50 Finance: <?= htmlspecialchars($title) ?></title>
+            <title>my Scribbler: <?= htmlspecialchars($title) ?></title>
         <?php else: ?>
-            <title>C$50 Finance</title>
+            <title>my Scribbler</title>
         <?php endif ?>
 
         <script src="/js/jquery-1.10.2.min.js"></script>
@@ -25,7 +25,7 @@
         <div class="container">
 
             <div id="top">
-                <a href="/"><img alt="C$50 Finance" src="/img/logo.gif"/></a>
+                <a href="/"><img alt="my Scribbler" src="/img/logo.gif"/></a>
             </div>
 
             <div id="middle">
