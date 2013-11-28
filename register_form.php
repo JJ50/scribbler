@@ -16,10 +16,10 @@
             <input name="confirmation" placeholder="Enter Password Again" type="password"/>
         </div>
         <div class="form-group">
-            <input autofocus name="email" placeholder="Enter Your Email Address" type="text"/>
-        </div>
-        <div class="form-group">
-            <button type="submit" class="btn btn-default">Register!</button>
+            <select name="gender">
+				<option value="Male">Male</option>
+				<option value="Female">Female</option>
+			</select><br><br>
         </div>
     </fieldset>
 </form>
