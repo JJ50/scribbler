@@ -15,14 +15,7 @@
         <div class="form-group">
             <input name="confirmation" placeholder="Enter Password Again" type="password"/>
         </div>
-        <div class="form-group">
-            <select name="gender">
-				<option value="Male">Male</option>
-				<option value="Female">Female</option>
-			</select>
-			<br>
-			<br>
-        </div>
+
         <div class="form-group">
             <button type="submit" class="btn">Register</button>
         </div>
