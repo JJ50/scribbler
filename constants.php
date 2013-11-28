@@ -13,12 +13,12 @@
     define("DATABASE", "myscribbler_db");
 
     // your database's password
-    define("PASSWORD", "ir6ErRbj");
+    define("PASSWORD", "crimson");
 
     // your database's server
-    define("SERVER", "mysql.myscribbler.us");
+    define("SERVER", "localhost");
 
     // your database's username
-    define("USERNAME", "myscribbler13");
+    define("USERNAME", "jharvard");
 
 ?>
