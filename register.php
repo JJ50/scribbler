@@ -7,7 +7,11 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST")
     {
         // validate inputs
-        if (empty($_POST["username"]))
+        if (empty($_POST["first"] || $_POST["last"]))
+        {
+            apologize("Please provide your full name.");
+        }
+        else if (empty($_POST["username"]))
         {
             apologize("Please provide a username.");
         }
@@ -15,7 +19,7 @@
         {
             apologize("Username cannot exceed 25 characters.");   
         }    
-        }
+        
         else if (empty($_POST["password"]))
         {
             apologize("Please provide a password.");
