@@ -19,7 +19,12 @@
             <select name="gender">
 				<option value="Male">Male</option>
 				<option value="Female">Female</option>
-			</select><br><br>
+			</select>
+			<br>
+			<br>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn">Register</button>
         </div>
     </fieldset>
 </form>
