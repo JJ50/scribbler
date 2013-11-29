@@ -13,16 +13,9 @@
          }   
          
          // try to store scribble 
-          query("INSERT INTO scribbles (id, scribbletext, datetime) VALUES (?, ?, NOW())", $_SESSION["id"], $_POST["scribble"]);
-
-        // redirect to main page
-        render("newscribble_form.php", ["title" => "Scribble Something!"]);
-
+         query("INSERT INTO scribbles (id, scribbletext, datetime) VALUES (?, ?, NOW())", $_SESSION["id"], $_POST["scribble"]);
     }
  
     // render portfolio
-    else
-    {
     render("newscribble_form.php", ["title" => "Scribble Something!"]);
-    }
 ?>
