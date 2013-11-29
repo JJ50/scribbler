@@ -1,7 +1,7 @@
 <form action="newscribble.php" method="post">
     <fieldset>
         <div class="form-group">
-            <TEXTAREA autofocus name="scribbles" placeholder="Enter Today's Scribble" ROWS=6 COLS=40 type="text"/> </TEXTAREA>
+            <TEXTAREA autofocus name="scribble" placeholder="Enter Today's Scribble" ROWS=6 COLS=40 type="text"/> </TEXTAREA>
         </div>
         
         <div class="form-group">
