@@ -5,9 +5,10 @@
     <li><a href="logout.php"><strong>Log Out</strong></a></li>
 </ul>
 
-<div>
-    <img alt="Under Construction" src="/img/logo.gif"/>
-</div>
+<br>
+under construction
+<br>
+
 <div>
     <a href="logout.php">Log Out</a>
 </div>
