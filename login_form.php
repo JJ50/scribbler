@@ -1,12 +1,13 @@
-<div id="top" class="blurb">
-    
-            <li>Be creative...</li>
-            <li>Be inspired...</li>
-            <li>Be the writer that you are...</li>
-
-
+<div id="top">
+            <br>
+            <br>
+            <li class="blurb">Be creative...</li>
+            <li class="blurb">Be inspired...</li>
+            <li class="blurb">Be the writer that you are...</li>
+            
 </div>
 
+<div id="rightSidebar">
 
 <form action="login.php" method="post">
     <fieldset>
@@ -21,6 +22,11 @@
         </div>
     </fieldset>
 </form>
+
 <div>
-    or <a href="register.php">register</a> for an account
+    Don't have an account?
+    <br>
+    <a href="register.php">Sign up!</a> 
 </div>
+</div>
+
