@@ -1,3 +1,13 @@
+<div id="top" class="blurb">
+    
+            <li>Be creative...</li>
+            <li>Be inspired...</li>
+            <li>Be the writer that you are...</li>
+
+
+</div>
+
+
 <form action="login.php" method="post">
     <fieldset>
         <div class="form-group">
