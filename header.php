@@ -23,9 +23,7 @@
         <div class="container">
 
             <div id="top">
-                <div class="site-header">
                     <a class="logo" href="/">myScribbler</a>
-                </div>
             </div>
 
             <div id="middle">
