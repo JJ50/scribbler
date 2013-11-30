@@ -1,0 +1,73 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#top
+{
+    /* center contents */
+    text-align: left;
+    background-color:#FCF8E3;
+     
+}
+
+.site-header .logo
+{
+
+    text-decoration: none;
+    font-size:110px;
+    font-weight: bold;
+    font-family:Helvetica-neue, Tahoma, Arial;
+}
+
+.blurb
+{
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Helvetica-neue, Tahoma, Arial;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#middle td
+{
+    /* left-align tables' cells */
+    text-align: left;
+}
+
+#middle .nav
+{
+    /* center navigation pills */
+    display: inline-block;
+}
+
+#bottomright
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+
+    /* center contents */
+    text-align: center;
+}
