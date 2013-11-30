@@ -6,6 +6,8 @@
 
 
         <link href="/css/styles.css" type="text/css" rel="stylesheet"/>
+        <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Capriola' rel='stylesheet' type='text/css'>
         
         <?php if (isset($title)): ?>
             <title>my Scribbler: <?= htmlspecialchars($title) ?></title>
