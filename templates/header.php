@@ -4,8 +4,8 @@
 
     <head>
 
-
-        <link href="/css/styles.css" type="text/css" rel="stylesheet"/>
+// note I have commented out all the css because it isn't working properly yet
+        <!-- <link href="/css/styles.css" type="text/css" rel="stylesheet"/> -->
         <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Capriola' rel='stylesheet' type='text/css'>
         
@@ -22,8 +22,8 @@
 
         <div class="container">
 
-            <div id="top">
-                    <a class="logo" href="/">myScribbler</a>
+            <div id="top" class="logo">
+                    <a href="/">myScribbler</a>
             </div>
 
             <div id="middle">
